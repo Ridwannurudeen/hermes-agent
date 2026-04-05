@@ -203,6 +203,11 @@ TOOLSETS = {
         "includes": []
     },
 
+    "a2a": {
+        "description": "Discover and communicate with remote A2A (Agent-to-Agent) protocol agents",
+        "tools": ["a2a_discover", "a2a_call", "a2a_list", "a2a_orchestrate"],
+        "includes": []
+    },
 
     # Scenario-specific toolsets
     
